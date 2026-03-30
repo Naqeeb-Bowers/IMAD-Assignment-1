@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import android.widget.Button
 
+private val MainActivity.mainActivity
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState : Bundle?) {
@@ -16,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val startButton = findViewById<Button>(R.id.startButton)
 
         startButton.setOnClickListener { it: View? ->
-            val intent = intent(this, mainActivity::class.java)
+            val intent = intent(this, mainActivity:)
             startActivity(intent)
 
         }
