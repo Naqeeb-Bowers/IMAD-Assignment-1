@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    :android="https//schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="615dp"
+        android:layout_marginTop="20dp"
+        android:text="app name"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="30dp"
+        android:text="helping you stay social"
+        android:textSize="16sp"
