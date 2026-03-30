@@ -3,7 +3,6 @@ package com.example.mainscreenass_1
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
