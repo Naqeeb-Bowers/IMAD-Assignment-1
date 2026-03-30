@@ -12,27 +12,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="24dp"
+        tools:ignore="ScrollViewSize">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Enter Time Of Day"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/editTime"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Example: morning" />
+            android:hint="Example: morning"
+            tools:ignore="Autofill,HardcodedText,TextFields,TextContrastCheck,VisualLintTextFieldSize" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnSuggest"
             android:text="Get Suggestion"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="30dp"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
 
         <TextView
             android:id="@+id/txtSuggestion"
@@ -47,7 +51,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
-            android:text="Reset" />
+            android:text="Reset"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
 
 
 
