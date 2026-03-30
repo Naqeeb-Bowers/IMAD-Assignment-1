@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "IMAD ASSIGNMENT 1"
 include(":app")
+include(":mainscreenass-1")
